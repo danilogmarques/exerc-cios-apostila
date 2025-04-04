@@ -1,8 +1,8 @@
 console.log('Bom dia meu jovem programador')
 
-let n1 = 10
-let n2 = 6
-let n3 = 9 
+let n1 = 2
+let n2 = 2
+let n3 = 1
 
 const media = n1 + n2 + n3 /3;
 
@@ -67,6 +67,55 @@ if (num % 2 === 0){
 }else{
     console.log(`O número ${num} é impar`)
 };
+
+// Monte o fluxugrama para Verificar se um aluno foi aprovado (média ≥ 7)
+
+if(media >= 7){
+    console.log(`a média de notas do aluno foi ${media} e ele foi aprovado`);
+}else{
+    console.log(`a média de notas do aluno foi ${media} e ele foi reprovado`)
+};
+
+// Monte o fluxugrama para Determinar o maior entre dois números
+
+let num1 = 100
+let num2 = 109
+
+if(num1 > num2){
+    console.log(`Eu sou o num1 e sou o MAIOR`)
+}else if(num2 === num1){
+    console.log(`Nós somos iguais`)
+}else{
+    console.log(`Eu sou o num2 e sou o MAIOR`)
+};
+
+// Monte o fluxugrama para Classificar um triângulo (equilátero, isósceles ou escaleno)
+// com base nos lados
+let lado1 = 7
+let lado2 = 7
+let lado3 = 8
+
+if(lado1 === lado2 && lado1 === lado3 && lado2 === lado3){
+    console.log(`Os três lados são iguais o triângulo é equilátero`)
+}else if(lado1 !== lado2 && lado3 !==  lado2!== lado3 && lado1 ){
+    console.log(`Os três lados são diferentes o triangulo é escaleno`)
+}else if(lado1 === lado2 && lado1 !== lado3 || lado2 === lado3 && lado2 !== lado1 || lado1 === lado3 && lado2 !== lado1  ){
+    console.log(`Dois dos lados são iguais e o triângulo é isósoles`)
+};
+
+// LAÇOS 
+
+// Criar um fluxograma que some números digitados até que o usuário digite 0.
+
+let counter = 0
+
+while(counter !== 0 ){
+    console.log(counter)
+    result = result * 2;
+    counter ++;
+};
+
+
 
 
 
