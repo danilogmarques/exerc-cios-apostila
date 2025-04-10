@@ -106,17 +106,41 @@ if(lado1 === lado2 && lado1 === lado3 && lado2 === lado3){
 // LAÇOS 
 
 // Criar um fluxograma que some números digitados até que o usuário digite 0.
+// let entradaConvertida
+// let entrada 
+// let somatoria = 0 
+// while ( entradaConvertida !== 0) { 
+    // entrada = prompt('digite um entradaConvertida')
+//     entradaConvertida = Number(entrada);
+//     somatoria = somatoria + entradaConvertida;
+//     console.log(somatoria);
+//     console.log('numero digitado pelo usuário', entrada);
+//  }; 
 
-let counter = 0
-
-while(counter !== 0 ){
-    console.log(counter)
-    result = result * 2;
-    counter ++;
+//  Calcular fatorial de um número (5! = 5×4×3×2×1)
+let faturador = 5;
+let counter = 5;
+while (counter >= 1) {
+    console.log(faturador)
+    counter = counter - 1;
+    faturador = counter * faturador
 };
+    
 
 
 
+// Encontrar o primeiro número maior que 100 na sequência de Fibonacci 
+// fibonacci = 1
+// crescente = 1 
+// f1 = 1
+// f2 = 1
+// fn = fn-1 + fn-2
+// while( fibonacci >= 3 ){
+//     fibonacci = fibonacci + 1
+    // fibonacci = fibonacci + 1
+    // fibonacci = 
+    // console.log(fibonacci);
+// };
 
 
 
